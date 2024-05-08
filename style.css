@@ -32,29 +32,100 @@ body {
 .header-main-title {
   display: flex;
   justify-content: center;
+  background-color: #1F2937;
+  color: #F9FAF8;
 }
 
-.wrapper-header {
+.links {
+  display: flex;
+  gap: 16px;
+  color: #7d7e80;
+}
+
+.wrapper-header,
+.wrapper-call-to-action {
   justify-content: space-between;
+}
+
+.wrapper-main-title {
+  margin: 100px 0;
+}
+
+.wrapper-call-to-action {
+  margin: 25px 0;
 }
 
 .wrapper-header,
 .wrapper-main-title {
   display: flex;
-  width: 70%;
+  width: 65%;
 }
 
-.links {
+.wrapper-call-to-action {
   display: flex;
-  gap: 16px
+  width: 52%;
+  color: #F9FAF8;
+}
+
+.call-to-action {
+  background-color: #3882F6;
+}
+
+/* Important call */
+.call-to-action-button {
+  align-self: flex-end;
+  border: 2px solid #F9FAF8 !important;
+}
+
+.left-title-text h1{
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+
+.left-title-text p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.left-title-sign-up-button,
+.call-to-action-button {
+  background-color: #3882F6;
+  padding: 8px 24px;
+  color: #F9FAF8;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.left-title-sign-up-button:hover {
+  background-color: #285fb7;
+  cursor: pointer;
+}
+
+.left-title-sign-up-button:active {
+  background-color: #20498d;
+}
+
+.right-title-image {
+  background-color: #7d7e80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-content {
-  flex: 1;
+
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
   text-align: center;
+  margin-top: auto;
 }
 
 ul {
